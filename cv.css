@@ -1,0 +1,299 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    background-color: rgb(70, 210, 210);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: rgb(29, 33, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+[class*="col-"]{
+   float: left;
+   padding: 15px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+
+/* small divice er jonno css */
+@media ( min-width:576px){
+    .col-sm-1{
+        width:8.33% ;
+    }
+
+    .col-sm-2{
+        width:16.66% ;
+    }
+
+    .col-sm-3{
+        width:25%;
+    }
+
+    .col-sm-4{
+        width:33.33% ;
+    }
+
+    .col-sm-5{
+        width:41.66% ;
+    }
+
+    .col-sm-6{
+        width:50% ;
+    }
+
+    .col-sm-7{
+        width:58.33% ;
+    }
+
+    .col-sm-8{
+        width:66.66% ;
+    }
+
+    .col-sm-9{
+        width:75% ;
+    }
+
+    .col-sm-10{
+        width:83.33% ;
+    }
+
+    .col-sm-11{
+        width:91.66% ;
+    }
+
+    .col-sm-12{
+        width:100% ;
+    }
+} 
+
+
+
+/* mudiam divice er jonno css */
+@media ( min-width:768px){
+    .col-md-1{
+        width:8.33% ;
+    }
+
+    .col-md-2{
+        width:16.66% ;
+    }
+
+    .col-md-3{
+        width:25%;
+    }
+
+    .col-md-4{
+        width:33.33% ;
+    }
+
+    .col-md-5{
+        width:41.66% ;
+    }
+
+    .col-md-6{
+        width:50% ;
+    }
+
+    .col-md-7{
+        width:58.33% ;
+    }
+
+    .col-md-8{
+        width:66.66% ;
+    }
+
+    .col-md-9{
+        width:75% ;
+    }
+
+    .col-md-10{
+        width:83.33% ;
+    }
+
+    .col-md-11{
+        width:91.66% ;
+    }
+
+    .col-md-12{
+        width:100% ;
+    }
+} 
+
+
+/* large divice er jonno css */
+@media ( min-width:992px){
+    .col-lg-1{
+        width:8.33% ;
+    }
+
+    .col-lg-2{
+        width:16.66% ;
+    }
+
+    .col-lg-3{
+        width:25%;
+    }
+
+    .col-lg-4{
+        width:33.33% ;
+    }
+
+    .col-lg-5{
+        width:41.66% ;
+    }
+
+    .col-lg-6{
+        width:50% ;
+    }
+
+    .col-lg-7{
+        width:58.33% ;
+    }
+
+    .col-lg-8{
+        width:66.66% ;
+    }
+
+    .col-lg-9{
+        width:75% ;
+    }
+
+    .col-lg-10{
+        width:83.33% ;
+    }
+
+    .col-lg-11{
+        width:91.66% ;
+    }
+
+    .col-lg-12{
+        width:100% ;
+    }
+}
+
+/* header starts here */
+ header{
+     padding: 1% 3%;
+     
+
+ }
+ .profile-img{
+     width: 120px;
+     height: 100px;
+     border: 3px solid white;
+     border-radius: 50%;
+     float:left;
+
+ }
+ .header-bio{
+     float: left;
+     padding: 30px;
+ }
+ .header-content{
+     float: right;
+ }
+ .header-content a{
+     text-decoration: none;
+     color:black;
+     font-weight: bold;
+     transition: .3s;
+
+ }
+.header-content a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.div-clear{
+    clear: both;
+}
+.hr-1{
+    border: 2px solid;
+    border-radius: 5px;
+}
+/* header ends here */
+
+/* personal start here */
+
+
+.left-div{
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.right-div ul{
+    margin-bottom: 20px;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+}
+.footer-bio{
+    text-align: right;
+    margin: 0 auto;
+  
+}
+
+.social-icon a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 8px;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.social-icon a:hover{
+    color: tomato;
+    background-color: white;
+    text-decoration: underline;
+}
+
+/* personal ends here */
